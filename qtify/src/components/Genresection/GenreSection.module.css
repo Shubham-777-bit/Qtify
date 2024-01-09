@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.header {
+    margin-inline: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.cardWrapper {
+    margin-top: 18px;
+}
+
+.tabWrapper{
+    margin-left: 31px;
+    .genreTab{
+        color: var(--color-white);
+    }
+    .selectedTab{
+        color: var(--color-white) !important;
+        border-bottom-color: var(--color-primary) !important;
+    }
+
+}
+
+.indicator{
+    background-color: var(--color-primary) !important;
+}

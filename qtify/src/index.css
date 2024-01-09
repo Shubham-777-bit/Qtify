@@ -8,7 +8,7 @@
 *,
 *::before
 *::after {
-  box-sizing:border-box
+  box-sizing:border-box;
 }
 
 *{
@@ -26,3 +26,36 @@ body {
   color: var(--color-white);
   overflow-x: hidden;
 }
+
+.swiper-slide {
+  width: auto !important;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea
+select {
+  font: inherit;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+  overflow: hidden;
+ }
