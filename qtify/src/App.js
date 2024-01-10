@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchGenreList, fetchNewAlbums, fetchSongs, fetchTopAlbums }  from './api/index.js';
-import Navbar from './components/Navbar/Navbar';
+import NavBar from './components/NavBar/NavBar.jsx';
 import HeroSection from './components/HeroSection/HeroSection.jsx';
 // import api from '../src/api/index.js';
 // import Card from './components/Card/Card.jsx';
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <NavBar data={songsData} />
       <HeroSection />
       {/* {TopAlbumData.map((item) => {
         return (

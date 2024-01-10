@@ -1,4 +1,4 @@
-import logo from '../asstes/Logo.png';
+import logo from '../../asstes/Logo.png';
 
 const Logo = () => {
   return (
